@@ -109,5 +109,8 @@
   #insure{
     margin-top: 20px;
   }
-  
- 
+
+ .cards{
+    display: flex;
+    
+ }
