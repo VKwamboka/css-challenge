@@ -112,5 +112,17 @@
 
  .cards{
     display: flex;
-    
+    justify-content: center;
+    align-items: center;
+    gap: 14px;
+    color: white;
+ }
+ .peace{
+    background-color: rgb(37, 150, 190);
+    padding: 20px;
+ }
+ .satisfaction{
+    background-color: white;
+    color: black;
+    padding: 20px;
  }
