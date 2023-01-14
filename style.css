@@ -15,8 +15,10 @@
     height: 500px;
 }
 .hero-image {
-    background-image: url("./images/hero.png") rgba(255, 0, 150, 0.3);
-    background-color: #555252;
+    background-image: url("./images/hero.png");
+    /* background: rgba(39,62,84,0.82) ; */
+    /* overflow:hidden; */
+    /* background-color: #555252; */
     height: 500px;
     background-position: center;
     background-repeat: no-repeat;
