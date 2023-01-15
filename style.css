@@ -211,7 +211,9 @@
  }
  .subscribe{
   margin: 20px;
-  background: linear-gradient(270deg, rgb(19, 173, 199) 0%, rgb(148, 93, 214) 100%);
+  background: linear-gradient(270deg, #cf1588 0%, rgba(4,70,136,255) 100%);
+  transition: all 0.4s ease 0s;
+  cursor: pointer;
   height: 100px;
   width: 70%;
   right: 50%;
@@ -225,4 +227,13 @@
   justify-content: center;
   align-items: center;
   gap: 250px;
+ }
+ .subscribe h4{
+  color: white;
+ }
+ .form{
+  /* height: 30px; */
+  padding: 10px;
+  background-color: white;
+  flex: 2;
  }
