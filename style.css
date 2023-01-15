@@ -250,7 +250,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  
+  margin-top: 40px;
  
  }
  .price1{
@@ -268,3 +268,11 @@
   margin-bottom: 30px;
   border-radius: 3px;
  }
+.price1 h4{
+  color: #23a6f0;
+}
+#price2{
+  background-color: #252b42;
+  color: white;
+  height: 500px;
+}
