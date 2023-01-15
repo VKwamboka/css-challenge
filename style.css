@@ -232,8 +232,17 @@
   color: white;
  }
  .form{
-  /* height: 30px; */
   padding: 10px;
   background-color: white;
-  flex: 2;
+  border: none;
+ }
+ .input button{
+  background-color: #23a6f0;
+  border: none;
+  color: white;
+  padding: 10px;
+
+ }
+ .input{
+  display: flex;
  }
