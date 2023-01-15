@@ -176,9 +176,6 @@
   padding: 2px;
  
  }
- /* #industry{
-  top: 50%;
- } */
  .indu{
   margin-top: 100px;
   display: flex;
@@ -245,4 +242,28 @@
  }
  .input{
   display: flex;
+ }
+ p{
+  /* color: #7f7f7f; */
+ }
+ .price-cards{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+ 
+ }
+ .price1{
+  margin-top: 20px;
+  border: 1px solid #23a6f0;
+  text-align: center;
+  margin-bottom: 20px;
+ }
+ .price1 button{
+  background-color: #23a6f0;
+  border: none;
+  color: white;
+  padding: 8px;
+  width: 150px;
+  margin-bottom: 10px;
  }
