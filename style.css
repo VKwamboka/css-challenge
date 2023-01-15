@@ -193,3 +193,17 @@
  .stars img{
   width: 15%;
  }
+ .icons{
+  margin-top: 150px;
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+ }
+ .icons img{
+  width: 5%;
+ }
+ .subscribe{
+  margin: 20px;
+ }
