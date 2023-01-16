@@ -1,19 +1,21 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
   }
 .container{
     /* padding: 10rem 0; */
     position: relative;
-    /* margin: 20px; */
-    width:100%; 
+    width:100vw; 
     height:100%;
+    
 }
 .hero {
     /* background-color:black;  */
     width: 100%;
     height: 600px;
-    background-color: #fafafa;;
+    background-color: #fafafa;
+    position: relative;
 }
 .hero-image {
     background-image: url("./images/hero.png");
@@ -106,6 +108,13 @@
   #insure{
     margin-top: 20px;
   }
+  .card{
+    /* top: 30%; */
+    bottom: 6%;
+    position: absolute;
+    left: 0px;
+    right: 0;
+   }
 
  .cards{
     display: flex;
@@ -129,11 +138,9 @@
     padding: 20px;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
  }
- .card{
-  top: 30%;
-  position: relative;
-  left: 30px;
- }
+.card-industry{
+  border: 2px solid red;
+}
  .card2{
   margin: 100px;
   display: flex;
@@ -162,16 +169,17 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  gap: 10px;
   /* margin: 20px; */
  }
  .industry p{
   text-align: center;
-  margin: 20px;
+  /* margin: 20px; */
   padding: 2px;
   font-size: 12px;
  }
  .industry h3{
-  margin: 40px;
+  margin: 30px;
   text-align: center;
   padding: 2px;
  
@@ -348,4 +356,19 @@ form{
   background-color: #f9f9f9;
   /* margin-bottom: 30px; */
   border-radius: 3px;
+}
+.consulting{
+  display: flex;
+  flex-direction: row;
+  gap: 100px;
+  justify-content: center;
+  align-items: center;
+}
+.contact-but{
+  background-color: #23a6f0;
+}
+ion-icon {
+  width: 50px;
+  height: 50px;
+  color: #23a6f0;
 }
