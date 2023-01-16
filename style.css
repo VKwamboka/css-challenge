@@ -170,7 +170,6 @@
   justify-content: center;
   align-items: center;
   gap: 10px;
-  /* margin: 20px; */
  }
  .industry p{
   text-align: center;
@@ -286,7 +285,7 @@
 #price2{
   background-color: #252b42;
   color: white;
-  height: 400px;
+  height: 420px;
 }
 .branches{
   margin-top: 40px;
