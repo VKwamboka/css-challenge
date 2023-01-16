@@ -216,7 +216,7 @@
  .subscribe{
   margin: 20px;
   background: linear-gradient(270deg, #cf1588 0%, rgba(4,70,136,255) 100%);
-  transition: all 0.4s ease 0s;
+  /* transition: all 0.4s ease 0s; */
   cursor: pointer;
   height: 100px;
   width: 70%;
@@ -363,15 +363,59 @@ form{
 .consulting{
   display: flex;
   flex-direction: row;
-  gap: 100px;
+  gap: 400px;
+  padding: 20px;
   justify-content: center;
   align-items: center;
 }
-.contact-but{
+.contact-but button{
   background-color: #23a6f0;
+  border: none;
+  width: 150px;
+  padding: 8px;
+  border-radius: 3px;
 }
 ion-icon {
   width: 50px;
   height: 50px;
   color: #23a6f0;
+}
+
+.about-us{
+  margin: 100px;
+  background-color: white;
+  display: flex;
+  gap: 100px;
+  justify-content: center;
+  align-items: center;
+
+}
+.about-us a{
+  text-decoration: none;
+  font-size: 14px;
+  color: #7f7f7f;
+}
+.company-info{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.footer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f9f9f9;
+  margin: 5px 100px 5px 100px;
+}
+.footer p{
+  font-size: 14px;
+  color: #7f7f7f;
+
+}
+.social-icons{
+  display: flex;
+  gap: 10px;
+}
+.social-icons ion-icon{
+  width: 40px;
 }
