@@ -110,7 +110,7 @@
   }
   .card{
     /* top: 30%; */
-    bottom: 6%;
+    bottom: 2%;
     position: absolute;
     left: 0px;
     right: 0;
@@ -138,9 +138,7 @@
     padding: 20px;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
  }
-.card-industry{
-  border: 2px solid red;
-}
+
  .card2{
   margin: 100px;
   display: flex;
@@ -151,6 +149,7 @@
  }
  .card2 p{
   text-align: center;
+
   font-size: 12px;
   padding: 2px;
  }
@@ -162,6 +161,7 @@
   display: flex;
   flex-direction: column;
   gap: 10px;
+  align-items: center;
  }
  .industry{
   background-color: #fafafa;
