@@ -4,14 +4,12 @@
     box-sizing: border-box;
   }
 .container{
-    /* padding: 10rem 0; */
     position: relative;
     width:100vw; 
     height:100%;
     
 }
 .hero {
-    /* background-color:black;  */
     width: 100%;
     height: 700px;
     background-color: #fafafa;
@@ -38,16 +36,19 @@
     transform: translate(-50%, -50%);
     color: white;
   }
-  .bar-item{
-    margin-top: -20px;
-    text-decoration: none;
+  .nav-items{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 100px;
+  }
+ 
+  .brand{
     color: white;
-    text-align: center;
-    text-align: center;
+    position: absolute;
   }
-  .navbar a{
-    padding: 2px;   
-  }
+
   .navbar{
     display: flex;
     gap: 10px;
@@ -58,17 +59,17 @@
     text-align: center;
     /* position: absolute; */
   }
-  .brand{
-    margin-top: 20px;
+  .bar-item{
+    text-decoration: none;
     color: white;
-    margin-left: 200px;
     text-align: center;
-    position: absolute;
+    
+    
   }
+
   .right{
-    margin-left: 70%;
-    gap: 50px;
     display: flex;
+    gap: 50px;
   }
   .right button{
     margin-top: 10px;
@@ -288,7 +289,7 @@
   height: 420px;
 }
 .branches{
-  margin-top: 40px;
+  margin: 40px;
   /* margin-bottom: 40px; */
   width: 100%;
   background-color:#252b42 ;
@@ -418,4 +419,37 @@ ion-icon {
 }
 .social-icons ion-icon{
   width: 40px;
+}
+
+@media screen and (max-width: 1024px) {
+  .subscribe{
+    gap: 150px;
+  }
+
+}
+@media screen and (max-width: 768px) {
+  .hero-section {
+      flex-direction: column-reverse;
+  }
+
+  .hero-right {
+      align-items: center;
+  }
+  .hero-right p {
+      text-align: center;
+  }
+}
+@media screen and (max-width: 600px) {
+  .nav {
+      height: auto;
+      padding: 20px 0px;
+      flex-direction: column;
+      gap: 10px;
+  }
+
+  .header-right {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+  }
 }
