@@ -457,7 +457,7 @@ ion-icon {
 }
 
 @media screen and (max-width: 1024px) {
-  .subscribe, .branches{
+  .subscribe, .branches, .about-us{
     gap: 80px;
   }
   .appointment{
@@ -471,6 +471,7 @@ ion-icon {
   .card{
     bottom: 10%;
   }
+  
 
 }
 @media screen and (max-width: 768px) {
