@@ -388,6 +388,16 @@ form{
   justify-content: center;
   align-items: center;
 }
+.consult{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.consult p{
+text-align: justify;
+font-size: 14px;
+color: #7f7f7f
+}
 .contact-but button{
   background-color: #23a6f0;
   color: white;
