@@ -371,14 +371,14 @@ form{
   border: none;
   color: white;
   padding: 8px;
-  width: 380px;
+  width: 80%;
   margin-top: 10px;
   margin-bottom: 30px;
   border-radius: 3px;
 }
 .form input{
   padding: 8px;
-  width: 350px;
+  width: 80%;
   border: 1px solid #dddddd ;
   background-color: #f9f9f9;
   /* margin-bottom: 30px; */
@@ -458,12 +458,19 @@ ion-icon {
 
 @media screen and (max-width: 1024px) {
   .subscribe, .branches{
-    gap: 100px;
+    gap: 80px;
   }
   .appointment{
     bottom: 5%;
+    width: 60%;
   }
-
+  .consulting{
+    margin-top: 250px;
+    gap: 200px;
+  }
+  .card{
+    bottom: 10%;
+  }
 
 }
 @media screen and (max-width: 768px) {
