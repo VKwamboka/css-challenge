@@ -41,7 +41,7 @@
   .nav-items{
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     justify-content: space-around;
     align-items: center;
     gap: 100px;
@@ -49,9 +49,11 @@
  
   .brand{
     color: white;
+   /* margin-top: 7px; */
   }
 
   .navbar{
+    /* margin-top: 7px; */
     display: flex;
     gap: 10px;
     flex-direction: row;
@@ -81,6 +83,7 @@
     padding: 8px;
     border-radius: 6px;
     cursor: pointer;
+    s
   }
   .right a{
     text-decoration: none;
@@ -467,11 +470,18 @@ ion-icon {
   .about-us{
     margin: 50px 20px 100px 20px;
   }
+  .nav-items{
+    gap: 50px;
+  }
 
 }
 @media screen and (max-width: 768px) {
-    .about-us, .icons, .nav-items, .card2{
+    .about-us, .icons, .card2{
     gap: 50px;
+  }
+  .nav-items{
+    gap: 10px;
+    margin: 5px;
   }
   .branches{
     gap: 30px;
@@ -503,10 +513,15 @@ ion-icon {
   gap: 30px;
   margin: 20px;
  }
+ .hero-text{
+  position: relative;
+  top: 40%;
+}
   
 }
 @media screen and (max-width: 640px) {
   .nav-items{
+    flex-wrap: wrap;
     gap: 15px;
   }
   .branches{
