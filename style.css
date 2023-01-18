@@ -17,9 +17,6 @@
 }
 .hero-image {
     background-image: url("./images/hero.png");
-    /* background: rgba(39,62,84,0.82) ; */
-    /* overflow:hidden; */
-    /* background-color: #555252; */
     height: 500px;
     background-position: center;
     background-repeat: no-repeat;
@@ -228,6 +225,7 @@
   width: 70%;
   right: 50%;
   display: flex;
+  /* flex-wrap: wrap; */
   justify-content: center;
   align-items: center;
   gap: 250px;
@@ -295,38 +293,28 @@
   height: 420px;
 }
 .branches{
-  /* margin: 100px 50px  100px 50px; */
   position: relative;
   margin: 50px;
-  /* margin-bottom: 40px; */
   width: 100%;
   background-color:#252b42 ;
   color: white;
   height: 500px;
   display: flex;
   justify-content: center;
-  /* align-items: center; */
   gap: 100px;
-  /* border: 2px solid blue; */
 }
 .branch{
   margin-left: 100px;
-  /* border: 2px solid red; */
- 
   margin-top: 50px;
-  /* padding: 20px; */
   width: 50%;
 }
 .branch-img{
   margin-left: 50px;
   margin-top: 100px;
-  /* border: 2px solid green; */
   width: 50%;
 }
 .branch h3{
-  /* padding: 2px; */
-  margin-left: 0;
-  /* text-align: justify; */
+  /* margin-left: 0; */
 }
 .branch p{
   padding: 2px;
@@ -334,17 +322,11 @@
   font-size: 14px;
 }
 
-/* .branch-img img{
-  width: 80%;
-} */
-
 
 .appointment{
   width: 50%;
-  
   position: absolute;
   bottom: 5%;
-  /* margin-top: -200px; */
   display: flex;
   justify-content: center;
   background-color: white;
@@ -389,7 +371,7 @@ form{
   border-radius: 3px;
 }
 .consulting{
- margin-top: 200px;
+  margin-top: 200px;
   display: flex;
   flex-direction: row;
   gap: 400px;
@@ -399,6 +381,7 @@ form{
 }
 .consult{
   display: flex;
+  flex-wrap: wrap;
   flex-direction: column;
   gap: 15px;
 }
@@ -475,12 +458,17 @@ ion-icon {
   .card{
     bottom: 10%;
   }
-  
+  .about-us{
+    margin: 50px 20px 100px 20px;
+  }
 
 }
 @media screen and (max-width: 768px) {
-  .subscribe, .branches, .about-us, .icons, .nav-items{
+    .about-us, .icons, .nav-items, .card2{
     gap: 50px;
+  }
+  .branches{
+    gap: 30px;
   }
   .cards{
     gap: 10px;
@@ -488,29 +476,82 @@ ion-icon {
    
  }
  .card{
-  
-  /* top: auto; */
   bottom: 2%;
-  /* bottom: -50%; */
+ }
+ .subscribe{
+  flex-wrap: wrap; 
+  gap: 15px;
+  margin: 5px;
+ }
+ .appointment{
+  width: 80%;
  }
  
- .hero-image{
-  /* height: 700px; */
- }
  .satisfaction, .peace{
   margin-top: 0px;
+ }
+ .consulting{
+  gap: 100px;
+ }
+ .about-us{
+  gap: 30px;
+  margin: 20px;
  }
   
 }
 @media screen and (max-width: 640px) {
   .nav-items{
-    flex-direction: column;
-    gap: 25px;
+    gap: 15px;
+  }
+  .branches{
+    gap: 10px;
+    flex-wrap: wrap;
+    /* height: 700px; */
+  }
+  .branch-img{
+    margin-top: 0;
+    /* margin-bottom: 50px; */
+  }
+  .appointment{
+    /* bottom: 0%; */
+    position: relative;
+    /* margin-bottom: 150px; */
+   
   }
 
   .header-right {
       display: flex;
       flex-direction: column;
       gap: 12px;
+  }
+  .branch{
+    margin-left: 0;
+  }
+  .consulting{
+    gap: 30px;
+    margin-top: 20px;
+  }
+  .footer{
+    margin: 10px;
+  }
+  .card{
+    position: relative;
+    top: 80%;
+    margin-bottom: 100px;
+  }
+  .card2{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 200px;
+  }
+  .about-us{
+    flex-wrap: wrap;
+  }
+  .hero{
+    /* height: 1000px; */
+  }
+  .hero-text{
+    position: relative;
+    top: 40%;
   }
 }
