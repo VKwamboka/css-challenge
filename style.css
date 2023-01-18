@@ -297,7 +297,7 @@ p {
   width: 100%;
   background-color: #252b42;
   color: white;
-  height: 100vh;
+  height: 500px;
   display: flex;
   justify-content: center;
   gap: 100px;
@@ -305,7 +305,8 @@ p {
 .branch {
   margin-left: 100px;
   margin-top: 50px;
-  width: 50%;
+  width: 35%;
+  
 }
 .branch-img {
   margin-left: 50px;
@@ -427,10 +428,7 @@ ion-icon {
 }
 
 @media screen and (max-width: 1024px) {
-  .subscribe,
-  .branches,
-  .about-us,
-  .icons {
+  .subscribe, .branches, .about-us, .icons {
     gap: 80px;
   }
   .appointment {
@@ -452,9 +450,7 @@ ion-icon {
   }
 }
 @media screen and (max-width: 768px) {
-  .about-us,
-  .icons,
-  .card2 {
+  .about-us, .icons, .card2 {
     gap: 50px;
   }
   .nav-items {
@@ -549,8 +545,6 @@ ion-icon {
   .card {
     top: 65%;
   }
-  .card2 {
-  }
   .subscribe {
     flex-direction: column;
     height: fit-content;
@@ -563,5 +557,18 @@ ion-icon {
   }
   .form {
     width: fit-content;
+  }
+  .branch{
+    margin: 10px;
+    /* justify-content: space-evenly; */
+  }
+  .branch-img {
+    margin-left: 5px;
+    margin-top: 10px;
+    width: 100%;
+    height: auto;
+  }
+  .branches{
+    /* justify-content: unset; */
   }
 }
