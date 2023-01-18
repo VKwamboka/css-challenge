@@ -24,7 +24,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    position: relative;
+    position: absolute;
     width: 100%;
   }
   
@@ -39,6 +39,7 @@
   .nav-items{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
     gap: 100px;
@@ -46,7 +47,6 @@
  
   .brand{
     color: white;
-    position: absolute;
   }
 
   .navbar{
@@ -119,6 +119,7 @@
 
  .cards{
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     gap: 14px;
@@ -143,6 +144,7 @@
  .card2{
   margin: 100px;
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   gap: 50px;
@@ -209,6 +211,7 @@
   margin-top: 150px;
   margin-bottom: 50px;
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   gap: 100px;
@@ -258,6 +261,7 @@
  }
  .price-cards{
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   margin-top: 40px;
@@ -457,7 +461,7 @@ ion-icon {
 }
 
 @media screen and (max-width: 1024px) {
-  .subscribe, .branches, .about-us{
+  .subscribe, .branches, .about-us, .icons{
     gap: 80px;
   }
   .appointment{
@@ -475,23 +479,33 @@ ion-icon {
 
 }
 @media screen and (max-width: 768px) {
-  .hero-section {
-      flex-direction: column-reverse;
+  .subscribe, .branches, .about-us, .icons, .nav-items{
+    gap: 50px;
   }
-
-  .hero-right {
-      align-items: center;
-  }
-  .hero-right p {
-      text-align: center;
-  }
+  .cards{
+    gap: 10px;
+    top: 0;
+   
+ }
+ .card{
+  
+  /* top: auto; */
+  bottom: 2%;
+  /* bottom: -50%; */
+ }
+ 
+ .hero-image{
+  /* height: 700px; */
+ }
+ .satisfaction, .peace{
+  margin-top: 0px;
+ }
+  
 }
-@media screen and (max-width: 600px) {
-  .nav {
-      height: auto;
-      padding: 20px 0px;
-      flex-direction: column;
-      gap: 10px;
+@media screen and (max-width: 640px) {
+  .nav-items{
+    flex-direction: column;
+    gap: 25px;
   }
 
   .header-right {
