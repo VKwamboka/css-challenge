@@ -18,13 +18,18 @@
 .hero-image {
     background-image: url("./images/hero.png");
     height: 500px;
+    box-shadow: inset 0 0 0 1000px rgba(37,43,66,.255);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: absolute;
     width: 100%;
   }
-  
+  #become{
+    color: white;
+    height: 90%;
+    
+  }
   .hero-text {
     text-align: center;
     position: absolute;
@@ -75,6 +80,7 @@
     color: white;
     padding: 8px;
     border-radius: 6px;
+    cursor: pointer;
   }
   .right a{
     text-decoration: none;
