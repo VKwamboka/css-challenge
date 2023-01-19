@@ -17,7 +17,7 @@
 .hero-image {
   background-image: url("./images/hero.png");
   height: 500px;
-  box-shadow: inset 0 0 0 1000px rgba(37, 43, 66, 0.255);
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, .5);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
