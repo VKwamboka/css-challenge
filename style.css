@@ -264,6 +264,9 @@ p {
   align-items: center;
   margin-top: 40px;
 }
+.ticks{
+  background-color: #2dc071;
+}
 .price-cards p {
   padding: 8px;
 }
