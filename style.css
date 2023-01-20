@@ -612,6 +612,11 @@ ion-icon {
   .footer{
     flex-direction: column;
   }
+  .right button{
+    padding-left: 0;
+    padding-right: 0;
+    margin: 3px;
+  }
   .consulting{
     flex-direction: column;
   }
