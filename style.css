@@ -257,8 +257,8 @@
 .input {
   display: flex;
 }
-p {
-  /* color: #7f7f7f; */
+.card2, .card p {
+  color: #7f7f7f;
 }
 .pricing{
   width: 100vw;
