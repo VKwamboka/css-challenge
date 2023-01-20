@@ -264,11 +264,19 @@ p {
   align-items: center;
   margin-top: 40px;
 }
-.ticks{
+i{
   background-color: #2dc071;
+  color: white;
+  width: 30px;
+  border-radius:50%;
+}
+.tick{
+  width: 50px;
 }
 .price-cards p {
   padding: 8px;
+  text-align: justify;
+  margin: 10px;
 }
 .price1 {
   margin-top: 20px;
@@ -292,7 +300,9 @@ p {
 #price2 {
   background-color: #252b42;
   color: white;
-  height: 420px;
+  margin-bottom: 50px;
+  height: 500px;
+  margin-top: 5%;
 }
 .branches {
   position: relative;
