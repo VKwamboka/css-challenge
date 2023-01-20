@@ -107,7 +107,6 @@
 }
 #learn {
   border: 1px solid white;
-
   background-color: transparent;
 }
 #insure {
@@ -619,4 +618,9 @@ ion-icon {
   .card2 {
     margin-top: 350px;
   }
+  #learn {
+    border: 1px solid white;
+    background-color:#23a6f0;
+  }
+  
 }
