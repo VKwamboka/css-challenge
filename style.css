@@ -579,7 +579,10 @@ ion-icon {
 }
 @media screen and (max-width: 480px) {
   .card {
-    top: 65%;
+    top: 80%;
+  }
+  .hero-text{
+    top: 48%;
   }
   .subscribe {
     flex-direction: column;
@@ -598,13 +601,22 @@ ion-icon {
     margin: 10px;
     /* justify-content: space-evenly; */
   }
+  .branches{
+    height: fit-content;
+  }
   .branch-img {
     margin-left: 5px;
     margin-top: 10px;
     width: 100%;
     height: auto;
   }
-  .branches{
-    /* justify-content: unset; */
+  .footer{
+    flex-direction: column;
+  }
+  .consulting{
+    flex-direction: column;
+  }
+  .card2 {
+    margin-top: 350px;
   }
 }
